@@ -3,7 +3,7 @@ using UnityEngine;
 public class ScrollBackground : MonoBehaviour
 {
     private Material _mat;
-    [SerializeField] private float _scrollSpeed = 0.1f;
+    [SerializeField] private float _scrollSpeed = 0.5f;
 
     void Awake()
     {
